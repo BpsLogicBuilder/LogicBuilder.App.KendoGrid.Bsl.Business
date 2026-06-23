@@ -11,7 +11,7 @@
 		<IncludeSymbols>true</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 		<EmbedUntrackedSources>true</EmbedUntrackedSources>
-		<Description>This library holds the request structures which a LogicBuilder service using a Kendo Grid depends on.</Description>
+		<Description>This library holds the request structures which a LogicBuilder service populating a Kendo UI Grid depends on.</Description>
 		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
 		<PackageReleaseNotes>First release.</PackageReleaseNotes>
 		<PackageTags>linq expressions</PackageTags>
