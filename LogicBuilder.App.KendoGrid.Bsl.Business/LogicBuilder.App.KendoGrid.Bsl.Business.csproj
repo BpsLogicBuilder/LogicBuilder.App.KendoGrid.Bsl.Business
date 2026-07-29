@@ -13,7 +13,7 @@
 		<EmbedUntrackedSources>true</EmbedUntrackedSources>
 		<Description>This library holds the request structures which a LogicBuilder service populating a Kendo UI Grid depends on.</Description>
 		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-		<PackageReleaseNotes>First release.</PackageReleaseNotes>
+		<PackageReleaseNotes>Making NuGet one of the release feeds.</PackageReleaseNotes>
 		<PackageTags>linq expressions</PackageTags>
 		<Copyright>Copyright © BPS 2026</Copyright>
 		<RepositoryUrl>https://github.com/BpsLogicBuilder/LogicBuilder.App.Bsl.Business</RepositoryUrl>
@@ -24,9 +24,7 @@
 		<AssemblyOriginatorKeyFile>..\LogicBuilder.Rules.snk</AssemblyOriginatorKeyFile>
 		<SignAssembly>true</SignAssembly>
 		<MinVerTagPrefix>v</MinVerTagPrefix>
-		<DebugType>embedded</DebugType>
 		<Deterministic>true</Deterministic>
-		<EmbedAllSources>true</EmbedAllSources>
 		<ContinuousIntegrationBuild Condition="'$(GITHUB_ACTIONS)' == 'true'">true</ContinuousIntegrationBuild>
   </PropertyGroup>
 
@@ -36,8 +34,8 @@
 	</ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="LogicBuilder.Structures" Version="8.0.2" />
-		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="10.0.300" PrivateAssets="All" />
+    <PackageReference Include="LogicBuilder.Structures" Version="8.0.3" />
+		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="10.0.301" PrivateAssets="All" />
 		<PackageReference Include="MinVer" Version="7.0.0">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

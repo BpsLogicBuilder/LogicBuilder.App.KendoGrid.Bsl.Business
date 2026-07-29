@@ -1,3 +1,4 @@
+* 2026-07-29 - AB#205: Making NuGet one of the release feeds.
 * 2026-06-23 - AB#154: Update README.md with badges.
 * 2026-06-23 - AB#154: Update project description and enhance README.
 * 2026-06-23 - AB#154: Add CI/CD workflows, tests, and project updates.

@@ -27,10 +27,7 @@ namespace LogicBuilder.App.KendoGrid.Bsl.Business.Tests.Requests
                     Sort = "name-asc",
                     Filter = "active eq true"
                 },
-                SelectExpandDefinition = new SelectExpandDefinitionDescriptor
-                {
-                    ExpandedItems = []
-                }
+                SelectExpandDefinition = new SelectExpandDefinitionDescriptor(null, [])
             };
 
             // Act
@@ -92,10 +89,7 @@ namespace LogicBuilder.App.KendoGrid.Bsl.Business.Tests.Requests
                     Group = "customerId",
                     Aggregate = "sum"
                 },
-                SelectExpandDefinition = new SelectExpandDefinitionDescriptor
-                {
-                    ExpandedItems = []
-                }
+                SelectExpandDefinition = new SelectExpandDefinitionDescriptor(null, [])
             };
 
             // Act
@@ -259,13 +253,13 @@ namespace LogicBuilder.App.KendoGrid.Bsl.Business.Tests.Requests
                 DataType = "Order",
                 ModelType = "OrderModel",
                 SelectExpandDefinition = new SelectExpandDefinitionDescriptor
-                {
-                    ExpandedItems =
+                (
+                    null,
                     [
                         new SelectExpandItemDescriptor("Customer"),
                         new SelectExpandItemDescriptor("OrderItems")
                     ]
-                }
+                )
             };
 
             // Act

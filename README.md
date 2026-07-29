@@ -4,6 +4,7 @@
 [![CodeQL](https://github.com/BpsLogicBuilder/LogicBuilder.App.KendoGrid.Bsl.Business/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/BpsLogicBuilder/LogicBuilder.App.KendoGrid.Bsl.Business/actions/workflows/github-code-scanning/codeql)
 [![codecov](https://codecov.io/gh/BpsLogicBuilder/LogicBuilder.App.KendoGrid.Bsl.Business/graph/badge.svg?token=08HT7RIG9A)](https://codecov.io/gh/BpsLogicBuilder/LogicBuilder.App.KendoGrid.Bsl.Business)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=BpsLogicBuilder_LogicBuilder.App.KendoGrid.Bsl.Business&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=BpsLogicBuilder_LogicBuilder.App.KendoGrid.Bsl.Business)
+[![NuGet](https://img.shields.io/nuget/v/LogicBuilder.App.KendoGrid.Bsl.Business.svg)](https://www.nuget.org/packages/LogicBuilder.App.KendoGrid.Bsl.Business)
 
 
 A .NET Standard 2.0 library that provides request model structures for integrating LogicBuilder services with Kendo UI Grid components. This library defines the data contracts used to communicate grid data operations such as filtering, sorting, paging, grouping, and aggregation between client applications and server-side business logic layers.
